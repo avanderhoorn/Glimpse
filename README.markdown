@@ -17,7 +17,7 @@ On the Server:
 
 1. Server collects all server side information that will aid in debugging (i.e. application settings, routes, session variables, trace data, etc)
 2. It does this by running through a pipeline of server side data providers that can be dynamically controlled and added to under plugin architecture
-3. Before the response is send, the server formats this data in accordance with the Glimpse Protocol and serializes it as JSON
+3. Before the response is sent, the server formats this data in accordance with the Glimpse Protocol and serializes it as JSON
 4. Depending on whether it is a Ajax request or not, the server embeds the JSON in the HTTP Header or in the content of the page
 
 On the Client:
@@ -37,7 +37,7 @@ Platforms currently supported:
 * ASP.Net Web Forms 
 * ASP.Net MVC 
 
-Platforms soon to be supported supported:
+Platforms soon to be supported:
 
 * PHP
 * Ruby on Rails 
